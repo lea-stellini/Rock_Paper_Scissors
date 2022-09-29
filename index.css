@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(134, 33, 33);
+    color: wheat;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/*BATTEL*/
+.battle{
+    display: flex;
+    justify-content:center;
+}
+
+/*DIVIDER*/
+.divider{
+    background-color: black;
+    width: 120px;
+    height: 1px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 40%;
+    display: none;
+}
+
+/*PLAYER*/
+.player{
+    padding: 10px 50px;
+    
+}
+
+ul{
+    padding-left: 18px;
+}
+
+li{
+    list-style-type: none;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: wheat;
+    color: rgb(134, 33, 33);
+    margin: 10px 20px 10px 0;
+    font-size: 1.3rem;
+}
+
+
+
+/*BUTTON*/
+.button{
+    border: solid 1px grey;
+    background-color: wheat; 
+    color:rgb(134, 33, 33);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    font-size: 1.5rem;
+}
