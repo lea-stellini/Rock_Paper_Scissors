@@ -1,3 +1,23 @@
+*{
+    background-color: rgb(134, 33, 33);
+    color: wheat;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
 /*DIVIDER*/
 .divider{
     background-color: black;
@@ -6,5 +26,24 @@
     transform: rotate(90deg);
     position: fixed;
     top: 40%;
-    display: none;
+}
+
+/*WEAPONS*/
+
+p{
+    font-size: 1.5rem;
+}
+
+/*BUTTON*/
+.button{
+    border: solid 1px grey;
+    background-color: wheat; 
+    color:rgb(134, 33, 33);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
