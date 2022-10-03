@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <h1>Choose your weapon ⚔️</h1>
@@ -14,10 +14,19 @@
         <div class="player">
             <h2>Player</h2>
             <ul>
-                <li><a href="#" id="rock" onclick="getRock()">Rock</a></li>
-                <li><a href="duel.html" id="paper">Paper</a></li>
-                <li><a href="duel.html" id="scissors">Scissors</a></li>
+                <li><button id="rock" onclick="getRock()">Rock</button></li>
+                <li><button id="paper" onclick="getPaper()">Paper</button></li>
+                <li><button id="scissors" onclick="getScissors()">Scissors</button></li>
             </ul>
+        </div>
+
+        <div class="divider"></div>
+    
+        <div class="computer">
+            <h2>Computer</h2>
+            <div>
+                <button  id="computer" onclick="getComputer()">?</button>
+            </div>
         </div>
         
        
