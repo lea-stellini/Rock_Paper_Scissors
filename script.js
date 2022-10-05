@@ -9,6 +9,16 @@ const getRock = () =>{
    scissorsPlayer.classList.add("none");
 
    getComputer();
+
+   console.log(computer);
+
+   if(computer.innerHTML = 'Paper'){
+    result.innerHTML = 'Computer wins !';
+   } else if(computer.innerHTML = 'Scissors'){
+    result.innerHTML = 'Player wins !';
+   } else {
+    result.innerHTML = 'It is a tie!';
+   }
 }
 
 const getPaper = () =>{
@@ -28,12 +38,13 @@ const getPaper = () =>{
 
 const getComputer = () => {
     const resultComputer = document.getElementById('computer');
-    const computer = Math.floor(Math.random()*(4 - 1) + 1);
+    let computer = Math.floor(Math.random()*(4 - 1) + 1);
+    console.log(computer);
     switch (computer) {
         case 1 : 
         resultComputer.innerHTML = 'Rock';
-        
         break;
+
         case 2 :
         resultComputer.innerHTML = 'Paper';
         

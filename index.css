@@ -2,6 +2,7 @@
     background-color: rgb(134, 33, 33);
     color: wheat;
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1{
@@ -30,13 +31,17 @@ p{
     width: 150px;
     height: 1px;
     transform: rotate(90deg);
-    position: relative;
-    top: 160px;
+    margin: auto 0;
 }
 
 /*PLAYER & COMPUTER*/
+.computer{
+    height: 160px;
+}
+
 ul{
     padding-left: 20px;
+    margin: 0;
 }
 
 li{
@@ -44,27 +49,36 @@ li{
     
 }
 
-button{
+button, #computer{
     text-decoration: none; 
     background-color: wheat;
     color: rgb(134, 33, 33);
     font-size: 1.3rem;
-    cursor: pointer;
     padding: 5px 10px;
     margin: 10px 20px 10px 0;
     border: solid 1px grey;
     border-radius: 10px;
     background-color: wheat;
+}
+
+.container{
+    margin-top: 35px;
+}
+
+button{
+    cursor: pointer;
     width: 120px;
-   
+}
+
+button:hover{
+    background-color: brown;
+    color: wheat;
+    border: dotted 1px wheat;
 }
 
 /*REFRESH*/
 #refresh{
-    position:absolute;
-    bottom: 10%;
-    left: 42%;
-    
+    margin: 0 auto; 
 }
 
 /**/
