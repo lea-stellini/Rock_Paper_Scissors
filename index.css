@@ -9,11 +9,11 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 p{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /*BATTEL*/
@@ -55,11 +55,34 @@ button{
     border: solid 1px grey;
     border-radius: 10px;
     background-color: wheat;
-    width: 100px;
+    width: 120px;
    
+}
+
+/*REFRESH*/
+#refresh{
+    position:absolute;
+    bottom: 10%;
+    left: 42%;
+    
 }
 
 /**/
 .none{
     display: none;
+}
+
+
+@media only screen and (max-width:510px ){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
 }
