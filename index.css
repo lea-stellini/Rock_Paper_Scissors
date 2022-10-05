@@ -19,7 +19,7 @@ p{
 /*BATTEL*/
 .battle{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: flex-start;
 }
 
@@ -27,11 +27,11 @@ p{
 /*DIVIDER*/
 .divider{
     background-color: black;
-    width: 120px;
+    width: 150px;
     height: 1px;
     transform: rotate(90deg);
-    position: fixed;
-    top: 50%;
+    position: relative;
+    top: 160px;
 }
 
 /*PLAYER & COMPUTER*/
