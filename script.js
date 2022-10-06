@@ -26,9 +26,9 @@ const getPaper = () =>{
 
     getComputer();
 
-    if(computerEl.innerHTML === 'Rock'){
+    if(computerEl.innerHTML === 'Scissors'){
         result.innerHTML = 'Computer wins !';
-    } else if(computerEl.innerHTML === 'Scissors'){
+    } else if(computerEl.innerHTML === 'Rock'){
         result.innerHTML = 'Player wins !';
     } else {
         result.innerHTML = 'It is a tie!';
